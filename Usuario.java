@@ -1,17 +1,17 @@
 package caixa;
 
-public class User {
+public class Usuario {
 	
 	private String nome;
 	private int idade;
 	private double altura;
 	private double peso;
 	
-	public User() {
+	public Usuario() {
 		
 	}
 	
-	public User(String nome, int idade, double altura, double peso) {
+	public Usuario(String nome, int idade, double altura, double peso) {
 		this.nome = nome;
 		this.idade = idade;
 		this.altura = altura;
