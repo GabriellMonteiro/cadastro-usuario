@@ -25,8 +25,8 @@ public class Menu {
 			cadastro.listar();
 		}
 	}while(op != 5);
+		System.out.println("Programa encerrado!");
 		
-		
-		
+		sc.close();
 	}
 }

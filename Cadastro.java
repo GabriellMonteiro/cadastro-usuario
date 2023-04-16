@@ -5,13 +5,14 @@ import java.util.Scanner;
 
 
 public class Cadastro {
-	
+	 
 	Scanner sc = new Scanner(System.in);	
-	Usuario user = new Usuario();
+
 	
 	ArrayList<Usuario> users = new ArrayList<Usuario>();
 	
 	public void cadastrar() {
+		Usuario user = new Usuario();
 		sc.nextLine();
 		System.out.print("Digite seu nome: ");
 		user.setNome(sc.nextLine());
