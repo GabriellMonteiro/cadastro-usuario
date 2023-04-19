@@ -1,4 +1,3 @@
-package caixa;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -7,13 +6,13 @@ import java.util.Scanner;
 public class Cadastro {
 	 
 	Scanner sc = new Scanner(System.in);	
-
+	
 	
 	ArrayList<Usuario> users = new ArrayList<Usuario>();
 	
 	public void cadastrar() {
+		
 		Usuario user = new Usuario();
-		sc.nextLine();
 		System.out.print("Digite seu nome: ");
 		user.setNome(sc.nextLine());
 		System.out.print("Digite sua idade: ");
@@ -22,6 +21,8 @@ public class Cadastro {
 		user.setAltura(sc.nextDouble());
 		System.out.print("Digite seu peso: ");
 		user.setPeso(sc.nextDouble());
+		sc.nextLine();
+		
 		
 		users.add(user);
 	}

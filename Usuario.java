@@ -1,4 +1,3 @@
-package caixa;
 
 public class Usuario {
 	
